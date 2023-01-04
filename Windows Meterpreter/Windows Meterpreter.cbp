@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Windows Meterpreter" />
+		<Option platforms="Windows;" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_gcc_compiler_x64_win32" />
+		<Build>
+			<Target title="Debug">
+				<Option platforms="Windows;" />
+				<Option output="bin/Debug/Windows Meterpreter" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option platforms="Windows;" />
+				<Option output="bin/Release/Windows Meterpreter" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_x64_win32" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O" />
+					<Add option="-m64" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m64" />
+					<Add option="-lws2_32 -lgdi32 -lmswsock -lgdiplus -lole32 -lvfw32 -lUser32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="File_IO.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="File_IO.h" />
+		<Unit filename="Keylogger.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Keylogger.h" />
+		<Unit filename="Main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Reflective_Pe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Reflective_Pe.h" />
+		<Unit filename="Utils.h" />
+		<Unit filename="system_func.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="system_func.h" />
+		<Unit filename="user_spy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="user_spy.h" />
+		<Unit filename="webcam_capture.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

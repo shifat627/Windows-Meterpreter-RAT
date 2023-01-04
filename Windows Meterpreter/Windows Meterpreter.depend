@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1559674214 source:c:\users\shifat\desktop\windows api\windows meterpreter\file_io.c
+	"File_IO.h"
+
+1559834479 c:\users\shifat\desktop\windows api\windows meterpreter\file_io.h
+	<WinSock2.h>
+	<MSWSock.h>
+	"Utils.h"
+	<stdio.h>
+
+1559921912 c:\users\shifat\desktop\windows api\windows meterpreter\utils.h
+	<Windows.h>
+
+1560790585 source:c:\users\shifat\desktop\windows api\windows meterpreter\main.c
+	"File_IO.h"
+	"user_spy.h"
+	"Keylogger.h"
+	"system_func.h"
+	"Reflective_Pe.h"
+	<stdio.h>
+
+1559669977 c:\users\shifat\desktop\windows api\windows meterpreter\user_spy.h
+	<winsock2.h>
+	<gdiplus.h>
+	<windows.h>
+
+1559828380 source:c:\users\shifat\desktop\windows api\windows meterpreter\user_spy.c
+	"user_spy.h"
+
+1561656634 c:\users\shifat\desktop\windows api\windows meterpreter\keylogger.h
+	<WinSock2.h>
+	<MSWSock.h>
+	<Windows.h>
+
+1559754409 source:c:\users\shifat\desktop\windows api\windows meterpreter\webcam_capture.c
+	"user_spy.h"
+	<vfw.h>
+
+1559922847 source:c:\users\shifat\desktop\windows api\windows meterpreter\keylogger.c
+	"Keylogger.h"
+	<time.h>
+	"Utils.h"
+	<stdio.h>
+
+1560012353 c:\users\shifat\desktop\windows api\windows meterpreter\system_func.h
+	<winsock2.h>
+	<windows.h>
+
+1560788087 c:\users\shifat\desktop\windows api\windows meterpreter\reflective_pe.h
+	<winsock2.h>
+	<windows.h>
+
+1560792487 source:c:\users\shifat\desktop\windows api\windows meterpreter\reflective_pe.c
+	"Reflective_Pe.h"
+	"Utils.h"
+	<stdio.h>
+
+1560012493 source:c:\users\shifat\desktop\windows api\windows meterpreter\system_func.c
+	"system_func.h"
+	"Utils.h"
+	<tlhelp32.h>
+	<stdio.h>
+
